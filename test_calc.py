@@ -14,3 +14,6 @@ def test_example_string_returns_zero():
 
 def test_example_string_returns_one():
     assert add("1") == 1
+
+def test_example_string_two_numbers():
+    assert add("1,2") == 3
