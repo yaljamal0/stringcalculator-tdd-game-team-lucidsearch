@@ -10,4 +10,5 @@ from calc import add
 
 def test_example_string_returns_zero():
     assert add("") == 0  # uncomment to test
+    assert add("1") == 1  # uncomment to test
     pass
